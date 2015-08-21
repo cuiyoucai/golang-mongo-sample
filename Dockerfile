@@ -8,7 +8,7 @@ ADD . /gopath/app/src/golang-mongo-sample
 
 RUN go get -t golang-mongo-sample
 RUN go install golang-mongo-sample
-echo "hello world!hello cuiyoucai"
+
 
 EXPOSE 80
 CMD ["/gopath/app/bin/golang-mongo-sample"]
